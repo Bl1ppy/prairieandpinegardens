@@ -12,9 +12,9 @@ layout: page
   <li class="post-preview">
     <article>
 
-      {%- capture Pinecone -%}
-        {% if post.Pinecone-img %}
-          {{ post.Pinecone-img }}
+      {%- capture thumbnail -%}
+        {% if post.thumbnail-img %}
+          {{ post.thumbnail-img }}
         {% elsif post.cover-img %}
           {% if post.cover-img.first %}
             {{ post.cover-img[0].first.first }}
@@ -24,13 +24,13 @@ layout: page
         {% else %}
         {% endif %}
       {% endcapture %}
-      {% assign Pinecone=Pinecone | strip %}
+      {% assign thumbnail=thumbnail | strip %}
 
       {% if site.feed_show_excerpt == false %}
-      {% if Pinecone != "" %}
+      {% if thumbnail != "" %}
       <div class="post-image post-image-normal">
-        <a href="{{ post.url | absolute_url }}" aria-label="Pinecone">
-          <img src="{{ Pinecone | absolute_url }}" alt="Post Pinecone">
+        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
         </a>
       </div>
       {% endif %}
@@ -54,19 +54,19 @@ layout: page
         Posted on {{ post.date | date: date_format }}
       </p>
 
-      {% if Pinecone != "" %}
+      {% if thumbnail != "" %}
       <div class="post-image post-image-small">
-        <a href="{{ post.url | absolute_url }}" aria-label="Pinecone">
-          <img src="{{ Pinecone | absolute_url }}" alt="Post Pinecone">
+        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
         </a>
       </div>
       {% endif %}
 
       {% unless site.feed_show_excerpt == false %}
-      {% if Pinecone != "" %}
+      {% if thumbnail != "" %}
       <div class="post-image post-image-short">
-        <a href="{{ post.url | absolute_url }}" aria-label="Pinecone">
-          <img src="{{ Pinecone | absolute_url }}" alt="Post Pinecone">
+        <a href="{{ post.url | absolute_url }}" aria-label="Thumbnail">
+          <img src="{{ thumbnail | absolute_url }}" alt="Post thumbnail">
         </a>
       </div>
       {% endif %}
