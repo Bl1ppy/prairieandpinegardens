@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About me
-subtitle: Why you'd want to go on a date with me
+subtitle: How I got here
 ---
 
 My name is Danielle Reher and I am passionate about gardening and helping others grow their passion for gardening.
