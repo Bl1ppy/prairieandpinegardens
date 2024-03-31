@@ -1,95 +1,24 @@
 ---
 layout: post
-title: Sample blog post to learn markdown tips
-subtitle: There's lots to learn!
-gh-repo: daattali/beautiful-jekyll
+title: Comfort in "Good Enough"
+subtitle: "The best time to plant a tree was 20 years ago. The second best is today"
+gh-repo: Bl1ppy/prairieandpinegardens
 gh-badge: [star, fork, follow]
-tags: [test]
+tags: [motivation]
 comments: true
 mathjax: true
-author: Bill Smith
+author: Thomas Reher
 ---
 
 {: .box-success}
-This is a demo post to show you how to write blog posts with markdown.  I strongly encourage you to [take 5 minutes to learn how to write in markdown](https://markdowntutorial.com/) - it'll teach you how to transform regular text into bold/italics/tables/etc.<br/>I also encourage you to look at the [code that created this post](https://raw.githubusercontent.com/daattali/beautiful-jekyll/master/_posts/2020-02-28-sample-markdown.md) to learn some more advanced tips about using markdown in Beautiful Jekyll.
+I'm sure I'm not alone in saying this: I want to excel. I want to hit the ground running at full speed. I want to be successful the first time I try. I want hard things to come easily. I want to approximate perfection in all that I set out to do.
 
-**Here is some bold text**
+I've watched a number of the Starlink launches and it struck me as a little funny that mission control spends so much time talking about trajectory being "nominal." While I think few of us would be delighted by this praise from our loved ones or in our careers, there's not much more one ought to expect from a rocket, right? For the rocket, that's pretty much the best place to be: nominal.
 
-## Here is a secondary heading
+When we start something new, different, challenging, or uncomfortable, landing on perfection the first time (maybe outside of "beginner's luck"), might mean that we didn't set our scope large enough for our skill set. I certainly don't mean to belittle anyone who has never failed, but with failure comes growth. Success teaches far less than adversity.
 
-[This is a link to a different site](https://deanattali.com/) and [this is a link to a section inside this page](#local-urls).
+With gardening in particular, there are so many variables--known and unknown--that are beyond our control that trying to have the perfect garden from the start is bewildering and if anything less than this is failure, makes failure inevitable. And if that's the only acceptable outcome, many won't dare dip their toe into what is a daunting, but immensely rewarding experience.
 
-Here's a table:
+So, instead of some all-or-nothing mentality, I would encourage each of us to <b>settle for good enough.</b> Cactuses and air plants are nearly  impossible to neglect to death. Hot peppers are way more forgiving than I deserve. Established perennials are pretty merciful. Already-started vegetables are more forgiving and less labor intensive than starting from seeds. Not infrequently, neighbors are thinning their hosta/elderberry/chives/etc. Basil is nary unkillable. People drop zucchini on your doorstep under cover of dark because it's harder to use than it is to grow. Succeeding with baby steps is going to build confidence and still teach lessons. You'll also start to learn which mentors have a similar mindset.
 
-| Number | Next number | Previous number |
-| :------ |:--- | :--- |
-| Five | Six | Four |
-| Ten | Eleven | Nine |
-| Seven | Eight | Six |
-| Two | Three | One |
-
-You can use [MathJax](https://www.mathjax.org/) to write LaTeX expressions. For example:
-When \\(a \ne 0\\), there are two solutions to \\(ax^2 + bx + c = 0\\) and they are $$x = {-b \pm \sqrt{b^2-4ac} \over 2a}.$$
-
-How about a yummy crepe?
-
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg)
-
-It can also be centered!
-
-![Crepe](https://beautifuljekyll.com/assets/img/crepe.jpg){: .mx-auto.d-block :}
-
-Here's a code chunk:
-
-~~~
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-~~~
-
-And here is the same code with syntax highlighting:
-
-```javascript
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-```
-
-And here is the same code yet again but with line numbers:
-
-{% highlight javascript linenos %}
-var foo = function(x) {
-  return(x + 5);
-}
-foo(3)
-{% endhighlight %}
-
-## Boxes
-You can add notification, warning and error boxes like this:
-
-### Notification
-
-{: .box-note}
-**Note:** This is a notification box.
-
-### Warning
-
-{: .box-warning}
-**Warning:** This is a warning box.
-
-### Error
-
-{: .box-error}
-**Error:** This is an error box.
-
-## Local URLs in project sites {#local-urls}
-
-When hosting a *project site* on GitHub Pages (for example, `https://USERNAME.github.io/MyProject`), URLs that begin with `/` and refer to local files may not work correctly due to how the root URL (`/`) is interpreted by GitHub Pages. You can read more about it [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). To demonstrate the issue, the following local image will be broken **if your site is a project site:**
-
-![Crepe](/assets/img/crepe.jpg)
-
-If the above image is broken, then you'll need to follow the instructions [in the FAQ](https://beautifuljekyll.com/faq/#links-in-project-page). Here is proof that it can be fixed:
-
-![Crepe]({{ '/assets/img/crepe.jpg' | relative_url }})
+To be honest, you're not getting any younger or any better at gardening by staying out of the dirt. Get out into nature and sunshine. Even if you kill 9 out of 10 plants, imagine how proud you'll be about your first home-grown tomato! You control the narrative and you are going to be an excellent, nominal gardener.
