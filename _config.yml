@@ -51,7 +51,7 @@ round-avatar: true
 social-network-links:
   email: "danielle.reher@gmail.com"
   rss: true  # remove this line if you don't want to show an RSS link at the bottom
-  facebook: deanattali
+#  facebook: deanattali
 #  github: daattali
 #  twitter: daattali
 #  patreon: DeanAttali
@@ -63,7 +63,7 @@ social-network-links:
 #  xing: yourname
 #  stackoverflow: "3943160/daattali"
 #  snapchat: deanat78
-#  instagram: deanat78
+  instagram: prairieandpinegarden
 #  spotify: yourname
 #  telephone: +14159998888
 #  steam: deanat78
@@ -94,7 +94,7 @@ share-links-active:
   twitter: true
   facebook: true
   linkedin: true
-  vk: false
+  instagram: true
 
 # How to display the link to your website in the footer
 # Remove this if you don't want a link in the footer
